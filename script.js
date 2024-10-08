@@ -104,14 +104,14 @@ function page1Animation() {
     stagger: 0.4,
   });
 
-  tl.from("#right h1", {
+  tl.from("#center-right h1", {
     y: 35,
     opacity: 0,
     duration: 0.8,
     stagger: 0.4,
   });
 
-  tl.from("#left p", {
+  tl.from("#center-left p", {
     x: -35,
     opacity: 0,
     duration: 0.8,
