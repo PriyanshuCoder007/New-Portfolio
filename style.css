@@ -180,7 +180,7 @@ i {
   /*font-family:Carter-One; */
 }
 
-#left p {
+#center-left p {
   width: 25vw;
   font-size: 1.3vw;
   line-height: 1.5vw;
@@ -582,10 +582,6 @@ i {
   order: 1; /* Places content to the left side */
 }
 
-/* .timeline-item.right .timeline-content {
-  order: 2; /* Places content to the right side 
-} */
-
 .timeline-item.left .timeline-date,
 .timeline-item.right .timeline-date {
   width: 50%;
@@ -700,25 +696,6 @@ i {
   font-weight: 300;
   padding-left: 4.2vw;
 }
-
-/* #lower #right {
-  /* font-family: Arial, sans-serif; */
-/* background-color: #c5e496; */
-/* color: #fff; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-}
-
-.contact-form {
-  width: 30vw;
-  padding: 20px;
-
-  border-radius: 10px;
-  /* box-shadow: 0 0 15px rgba(0, 255, 255, 0.5); 
-} */
 
 #lower #right {
   display: flex;
@@ -889,6 +866,8 @@ textarea.input-full {
   bottom: 0;
 }
 
+/* Footer section */
+
 @media (max-width: 400px) {
   #loader .overlay {
     position: fixed;
@@ -915,7 +894,8 @@ textarea.input-full {
   }
 
   nav {
-    padding: 8vw 5vw;
+    position: fixed;
+    padding: 3vw 5vw;
     background-color: #efeae3;
   }
 
@@ -964,7 +944,8 @@ textarea.input-full {
   }
 
   #center {
-    height: 62vh;
+    top: 54vw;
+    height: 36vh;
     width: 100%;
     /* background-color: yellow; */
     display: flex;
@@ -978,14 +959,14 @@ textarea.input-full {
     z-index: 9;
   }
 
-  #center #right {
+  #center #center-right {
     position: absolute;
     top: 12%;
     right: 2%;
     /* background-color: #fff; */
   }
 
-  #center #left {
+  #center #center-left {
     width: 70%;
     position: absolute;
     top: 80%;
@@ -999,10 +980,11 @@ textarea.input-full {
     line-height: 16vw;
   }
 
-  #left p {
+  #center-left p {
     width: 100%;
     font-size: 4.2vw;
     line-height: 6vw;
+    margin-top: 30vw;
   }
 
   #page2 {
@@ -1518,7 +1500,8 @@ textarea.input-full {
   }
 
   nav {
-    padding: 8vw 5vw;
+    position: fixed;
+    padding: 5vw 5vw;
     background-color: #efeae3;
   }
 
@@ -1581,14 +1564,14 @@ textarea.input-full {
     z-index: 9;
   }
 
-  #center #right {
+  #center #center-right {
     position: absolute;
     top: 12%;
     right: 2%;
     /* background-color: #fff; */
   }
 
-  #center #left {
+  #center #center-left {
     width: 70%;
     position: absolute;
     top: 80%;

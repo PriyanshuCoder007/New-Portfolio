@@ -273,12 +273,13 @@ function menuAndTextAnimation() {
     console.log("Toggling animation"); // To check if click event works
 
     if (flag === 0) {
-      fullScr.style.top = "0"; // Show fullScr
-      navImg.style.opacity = 0; // Hide navImg
+      fullScr.style.top = "0";
+      navImg.style.opacity = 0;
+
       flag = 1;
     } else {
-      fullScr.style.top = "-100%"; // Hide fullScr
-      navImg.style.opacity = 1; // Show navImg
+      fullScr.style.top = "-100%";
+      navImg.style.opacity = 1;
       flag = 0;
     }
   }
