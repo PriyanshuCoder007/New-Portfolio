@@ -2755,7 +2755,7 @@ textarea.input-full {
   #center-left p {
     width: 100%;
     font-size: 2.2vw;
-    line-height: 2vw;
+    line-height: 2.5vw;
   }
 
   #page2 {
@@ -2782,28 +2782,121 @@ textarea.input-full {
   #lower-part .moving-div1,
   #lower-part .moving-div2,
   #lower-part .moving-div3 {
-    width: 92%;
+    width: 58%;
     padding: 2vw;
-    left: 7%;
+    left: 20%;
     right: 1vw;
   }
 
   .move svg {
-    height: 23vw;
-    width: 26vw;
-    padding: 3.3vw;
+    height: 13vw;
+    width: 13vw;
+    padding: 2.3vw;
     margin: 2.2vw;
   }
 
   .move img {
-    height: 23vw;
-    width: 25vw;
-    padding: 1vw;
-    margin: 2vw;
+    height: 13vw;
+    width: 17vw;
+    padding: 0.3vw;
+    margin: 2.2vw;
   }
 
   .blur-left,
   .blur-right {
     width: 20%;
+  }
+
+  #down-part {
+    padding: 3.2vw 4vw;
+  }
+
+  #down-part .nav-part2 h4 {
+    width: 20.9vw;
+  }
+
+  #down-part .nav-part2 h4 a {
+    font-size: 2.5vw;
+    font-weight: 200;
+    font-family: Carter-One;
+  }
+
+  #mob-elem {
+    display: none;
+  }
+
+  #lower {
+    position: absolute;
+    height: 70vh;
+    width: 91vw;
+    top: 25%;
+    left: 3%;
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #lower #left h3 {
+    font-size: 5vw;
+    padding-top: 3.4vw;
+  }
+
+  #lower #left #info h4 {
+    font-size: 3.4vw;
+    font-weight: 600;
+  }
+
+  #lower #left #info i {
+    color: #000;
+    font-size: 2.7vw;
+    padding-right: 1vw;
+  }
+
+  #lower #left p {
+    font-size: 1.6vw;
+    font-weight: 300;
+    padding-left: 4.2vw;
+  }
+
+  #lower #right {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 68%;
+    padding-top: 2.5vw;
+    padding-left: 0vw;
+    /* background-color: #fff; */
+  }
+
+  .row {
+    margin-bottom: 25px;
+  }
+
+  .input-half {
+    font-size: 1.8vw;
+  }
+
+  .input-full {
+    font-size: 1.8vw;
+  }
+
+  .send-btn {
+    font-size: 1.8vw;
+  }
+
+  .send-btn:hover {
+    font-size: 1.8vw;
+  }
+
+  #page7 #menu h2 a {
+    font-size: 3.4vw;
+  }
+
+  #page7 #icon {
+    font-size: 2.8vw;
+  }
+
+  #page7 h4 {
+    font-size: 1.3vw;
   }
 }
