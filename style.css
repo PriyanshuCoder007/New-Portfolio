@@ -850,10 +850,6 @@ textarea.input-full {
   border-bottom-right-radius: 20px;
 }
 
-/* #full-src #full-div1 h3 {
-  display: none;
-} */
-
 /* Footer section */
 
 #footer {
@@ -2717,5 +2713,97 @@ textarea.input-full {
     color: #fff;
     z-index: 9;
     bottom: 0%;
+  }
+}
+
+@media (max-width: 1080px) and (min-width: 768px) {
+  #center {
+    height: 66vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: none;
+    padding-bottom: 0.4vw;
+    padding: 1vw 5vw;
+    position: relative;
+    z-index: 9;
+    top: 2vw;
+  }
+
+  #center #center-right {
+    width: 70%;
+    position: absolute;
+    top: 10vw;
+    right: 5%;
+  }
+
+  #center #center-left {
+    width: 50%;
+    position: absolute;
+    top: 62vh;
+    left: 4%;
+  }
+
+  #center h1 {
+    font-size: 10vw;
+    text-align: right;
+    line-height: 10vw;
+  }
+
+  #center-left p {
+    width: 100%;
+    font-size: 2.2vw;
+    line-height: 2vw;
+  }
+
+  #page2 {
+    height: 70vh;
+    width: 100%;
+    background-color: #efeae3;
+    position: relative;
+    padding: 0 2vw;
+  }
+
+  #page2-upper h2 {
+    font-size: 6vw;
+  }
+
+  #upper-part h2 {
+    font-size: 6vw;
+  }
+
+  #lower-part {
+    margin-top: 3vw;
+    height: 89vh;
+  }
+
+  #lower-part .moving-div1,
+  #lower-part .moving-div2,
+  #lower-part .moving-div3 {
+    width: 92%;
+    padding: 2vw;
+    left: 7%;
+    right: 1vw;
+  }
+
+  .move svg {
+    height: 23vw;
+    width: 26vw;
+    padding: 3.3vw;
+    margin: 2.2vw;
+  }
+
+  .move img {
+    height: 23vw;
+    width: 25vw;
+    padding: 1vw;
+    margin: 2vw;
+  }
+
+  .blur-left,
+  .blur-right {
+    width: 20%;
   }
 }
