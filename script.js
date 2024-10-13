@@ -2,6 +2,7 @@ const menu = document.querySelector("nav h3");
 const fullScr = document.querySelector("#full-src");
 const navImg = document.querySelector("nav img");
 const clickText = document.querySelectorAll("#full-src #full-div1 h3");
+const logoChange = document.getElementById("logo");
 
 function locomotiveScroll() {
   gsap.registerPlugin(ScrollTrigger);
@@ -117,6 +118,13 @@ function page1Animation() {
     duration: 0.8,
     stagger: 0.4,
   });
+}
+
+function logoChangeAsDate() {
+  const logos = ["./image/logo2.png", "./image/logo1.png"];
+  const today = new Date().getDay();
+  const logoImage = logos[today];
+  logoChange.src = logoImage;
 }
 
 function circleSvgAnimation() {
@@ -304,3 +312,4 @@ page4Animation();
 animateTimelineItem();
 page5Animation();
 menuAndTextAnimation();
+logoChangeAsDate();

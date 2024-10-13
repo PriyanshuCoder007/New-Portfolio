@@ -105,6 +105,11 @@ nav {
   justify-content: space-between;
 }
 
+nav img {
+  width: 10vw;
+  height: 5vw;
+}
+
 nav h3 {
   display: none;
 }
@@ -895,12 +900,13 @@ textarea.input-full {
     background-color: #efeae3;
   }
 
-  .nav-part2 {
-    display: none;
+  nav img {
+    width: 13vw;
+    height: 8vw;
   }
 
-  nav img {
-    height: 9vh;
+  .nav-part2 {
+    display: none;
   }
 
   nav h3 {
@@ -1506,7 +1512,8 @@ textarea.input-full {
   }
 
   nav img {
-    height: 9vh;
+    width: 13vw;
+    height: 8vw;
   }
 
   nav h3 {
@@ -2094,7 +2101,8 @@ textarea.input-full {
   }
 
   nav img {
-    height: 9vh;
+    width: 13vw;
+    height: 8vw;
   }
 
   nav h3 {
