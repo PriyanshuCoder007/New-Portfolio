@@ -121,7 +121,15 @@ function page1Animation() {
 }
 
 function logoChangeAsDate() {
-  const logos = ["./image/logo2.png", "./image/logo1.png"];
+  const logos = [
+    "./image/logo2.png",
+    "./image/logo1.png",
+    "./image/logo2.png",
+    "./image/logo1.png",
+    "./image/logo2.png",
+    "./image/logo1.png",
+    "./image/logo2.png",
+  ];
   const today = new Date().getDay();
   const logoImage = logos[today];
   logoChange.src = logoImage;
